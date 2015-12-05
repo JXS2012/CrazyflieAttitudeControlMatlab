@@ -5,7 +5,7 @@ function [ u ] = attitude_control( E, e, R, w, d, ddot, M )
 % R 3X3 current rotation Matrix
 % w 3X1 angular velocity
 % d 3X1 desired angular velocity
-% ddot 3X1 desired angular velocity
+% ddot 3X1 desired angular acceleration
 % M 3X3 inertia matrix
 
     global constants
